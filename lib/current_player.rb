@@ -17,5 +17,6 @@ board [" "," "," "," "," "," "," "," "," "]
   end
 
 turn = turn_count(board)
-puts "It is currently turn # #{turn}."
+puts "It is currently turn ##{turn}."
 player = current_player(turn)
+puts "It is #{player}'s turn"
