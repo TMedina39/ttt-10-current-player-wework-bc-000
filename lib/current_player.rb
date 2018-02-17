@@ -8,7 +8,7 @@ board [" "," "," "," "," "," "," "," "," "]
     end
   end
 
-  def current_player (turn)
+  def current_player(turn)
     if turn % 2 == 0
       "O"
     else
@@ -18,3 +18,4 @@ board [" "," "," "," "," "," "," "," "," "]
 
 turn = turn_count(board)
 puts "It is currently turn # #{turn}."
+player = current_player(turn)
